@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #15616d;
+    color: #ffecd1;
+}
+
+header {
+    background-color: #001524;
+    color: #ffecd1;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 20px;
+    background-color: #001524;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.proyecto {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.proyecto a {
+    display: inline-block;
+    background-color: #047028;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #001524;
+    color: #fff;
+}
+
+/* imagen */
+#sobre-mi {
+    text-align: center;
+}
+
+.profile-img {
+    width: 400px;
+    height: 450px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Media query */
+@media (max-width: 768px) {
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+a {
+    color: #047028;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffecd1;
+}
+
+.proyecto {
+    transition: transform 0.3s ease;
+}
+
+.proyecto:hover {
+    transform: scale(1.05);
+}
+
+.proyecto img {
+    transition: opacity 0.3s ease;
+}
+
+.proyecto:hover img {
+    opacity: 0.8;
+}

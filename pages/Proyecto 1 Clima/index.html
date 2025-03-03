@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+
+        <!--Estilos-->
+    <link rel="stylesheet" href="./style.css">
+
+        <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body onload="onLoad()">
+    <div id="container">
+        <div class="Local">
+            <div class="info-container">
+                <h3 class="zone">Ubicacion: </h3>
+                <div id="location" class="mayuscula"> </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="info-container">
+                <h3>Fecha: </h3>
+                <div id="date" class="minuscula"></div>
+            </div>
+            <div class="info-container">
+                <h3>Temperatura: </h3>
+                <div id="temperature" class="minuscula"></div>
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="info-container">
+                <h3>Presion Atmosferica: </h3>
+                <div id="pressure" class="minuscula"></div>
+            </div>
+            <div class="info-container">
+                <h3>Descripcion: </h3>
+                <div id="description" class="minuscula"></div>
+            </div>
+            <div class="info-container">
+                <h3>Humedad: </h3>
+                <div id="humidity" class="minuscula"></div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!--Spinner-->
+
+    <div class="loader" id="loader">Cargando...</div>
+
+
+        <!-- JS -->
+    <script src="./app.js"></script>
+</body>
+</html>
