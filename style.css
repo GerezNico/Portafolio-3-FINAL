@@ -14,7 +14,7 @@ header {
 }
 
 section {
-    max-width: 800px;
+    max-width: 50%;
     margin: 2rem auto;
     padding: 20px;
     background-color: #001524;
@@ -37,6 +37,11 @@ section {
     margin-top: 10px;
 }
 
+.proyecto img {
+    max-width: 100%;
+    height: auto;
+}
+
 footer {
     text-align: center;
     padding: 1rem 0;
@@ -50,8 +55,9 @@ footer {
 }
 
 .profile-img {
-    width: 400px;
-    height: 450px;
+    width: 80%;
+    max-width: 400px;
+    height: auto;
     border-radius: 50%;
     margin-bottom: 20px;
 }
@@ -62,6 +68,22 @@ footer {
         width: 120px;
         height: 120px;
     }
+        body {
+            font-size: 14px;
+        }
+    
+        h1 {
+            font-size: 2em;
+        }
+    
+        h2 {
+            font-size: 1.5em;
+        }
+    
+        .proyecto {
+            padding: 0.5rem;
+        }
+    
 }
 
 a {
